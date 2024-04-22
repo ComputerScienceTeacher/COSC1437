@@ -87,6 +87,21 @@ class CourseSection{
 
 };
 
+class HonorsStudent : public Student {
+    string academy;
+    
+    public:
+        HonorsStudent(string n, string id, string acad) : Student(n, id)
+        {
+            academy = acad;
+        }
+
+        string getAcademy()
+        {
+            return academy;
+        }
+};
+
 
 int main()
 {
@@ -117,6 +132,9 @@ int main()
     {
         cout << student.getName() << endl;
     }                
-
+    HonorsStudent myStudent("Juan's Dress", "A58642","STEM");
+    cout << myStudent.getName();
     return 0;
+
+
 }
