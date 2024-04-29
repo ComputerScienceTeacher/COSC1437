@@ -18,7 +18,7 @@ int main ()
     printVector(myVector);
     insertionSort(myVector);
 }
-
+   
 
 void insertionSort(vector<int> myVector)
 {
