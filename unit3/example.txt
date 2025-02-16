@@ -1,0 +1,5 @@
+1: Hello, file I/O in C++!
+2: Hello, file I/O in C++!
+3: Hello, file I/O in C++!
+4: Hello, file I/O in C++!
+5: Hello, file I/O in C++!
